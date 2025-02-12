@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import 'tailwindcss';
+
+@theme {
+  --font-outfit: 'Outfit', serif;
+
+  --color-slate-300: #d5e1ef;
+  --color-slate-500: #68778d;
+  --color-slate-900: #1f314f;
+
+  --text-header: 22px;
+  --text-header--line-height: 120%;
+  --text-header--font-weight: 700;
+  
+  --text-paragraph: 15px;
+  --text-paragraph--line-height: 140%;
+  --text-paragraph--font-weight: 400;
+  --text-paragraph--letter-spacing: 0.2px;
+
+  --drop-shadow-card: 0 25px 25px rgba(0, 0, 0, 0.1);
+}
